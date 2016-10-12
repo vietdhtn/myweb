@@ -26,6 +26,41 @@
 	margin: 5px;
 	color: green;
 }
-.form-control{
-	width: 100%;
+#foot{
+    background-color: #16a085;
+}
+#foot h2 {
+    color: #FFFFFF; 
+}
+#foot li{
+    list-style: none;
+}
+#foot li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.no-padding-right{
+    padding-right: 0;
+}
+.no-padding-left{
+    padding-left: 0;
+}
+.no-padding-top{
+    padding-top: 0;
+}
+.no-padding-bot{
+    padding-bottom: 0;
+}
+.no-padding{
+    
+}
+.li-menu-tab{
+    list-style: none;    
+    line-height: 20px;
+    padding: 0;
+}
+.li-menu-tab li a{
+    color: blue;
+    overflow: hidden;
+
 }
