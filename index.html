@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Fixed Top Navbar Example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="public/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="public/css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="public/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-2">
+                <img src="public/logo/toplogo.gif" alt="" width="90" height="90">
+              </div>
+              <div class="col-lg-10">
+                <h2  class="text-center">WellCome To My Website</h2>
+                <p class="text-center"><smaill> Nơi Học tập - Chia sẻ - Thành công</smaill></p>
+              </div>
+            </div>
+             
+          </div>
+          <div class="col-lg-6">
+              <div class="search">  
+                <div class="form-group">          
+                  <div class="col-sm-8 col-lg-12">
+                    <form action="#" method="POST" class="form-inline" role="form">                
+                      <div class="form-group">                    
+                        <input type="text" class="form-control" id="" placeholder="Nhập nội dung ">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+                    </form>
+                    <div class="col-lg-12">
+                      <p class="login text-right"> 
+                      Để tham gia thảo luận bạn vui lòng  
+                      <a href="#" title="">Đăng nhập</a> 
+                      <span class="text-center"> Hoặc </span> 
+                      <a href="#" title="">Đăng ký</a>
+                    </p>
+                    </div> 
+                  </div>            
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-top" role="navigation" style="background-color: #16a085;">
+      <div class="container">  
+        <div class="row">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header" style="color: #FFFFFF;">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-mav-top" style="color: #FFFFFF;">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar" style="color:red;"></span>
+              <span class="icon-bar" style="color: #FFFFFF;"></span>
+              <span class="icon-bar" style="color: #FFFFFF;"></span>
+            </button>
+            <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="#" style="color: #FFFFFF;">My Website - Menu</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="main-mav-top">
+            <ul class="nav navbar-nav">
+              <li> <a href="#" title="" style="color: #FFFFFF;background-color: #2c3e50;"><b class="glyphicon glyphicon-home"></b> Trang chủ </a> </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Học thiết kế web <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">HTML5 - CSS3</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Bootstrap 3</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">PHP</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Laravel 5</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">WordPress</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Joomla</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dịch vụ thiết kế web giá rẻ <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Website Bán Hàng</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Website Công ty - Doanh nghiệp</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Forum - Thương mại điện tử</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Website Tin Tức</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Website Cá Nhân</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Dịch vụ hosting - Doman</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tin Tức <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Tiện ích máy tính</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Thông tin công nghệ</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Hưỡng dẫn - Kinh nghiệm</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Thủ thuật Windows </a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Máy tính</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Mạng Internet</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Thủ thuật khác</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Download <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Windows 10</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Windows 8 - 8.1</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Windows 7</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Windows XP</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Phần mền</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Games - Trò chơi</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Công cụ hệ thống</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Driver máy tính</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Hình nền máy tính</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ghost Windows <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Windowns 10</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Windowns 8 - 8.1</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Windowns 7</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Windowns XP</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Công cụ - Hưỡng dẫn làm GHOST</a></li>
+                </ul>
+              </li>          
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">      
+      <div class="col-lg-12"> 
+        <!-- Main component for a primary marketing message or call to action -->
+        <div class="jumbotron">
+          <h1>Navbar example</h1>
+          <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+          <p>To see the difference between static and fixed top navbars, just scroll.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+          </p>
+        </div>
+
+        <!-- Main component for a primary marketing message or call to action -->
+        <div class="jumbotron">
+          <h1>Navbar example</h1>
+          <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+          <p>To see the difference between static and fixed top navbars, just scroll.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+          </p>
+        </div>
+        <!-- Main component for a primary marketing message or call to action -->
+        <div class="jumbotron">
+          <h1>Navbar example</h1>
+          <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+          <p>To see the difference between static and fixed top navbars, just scroll.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+          </p>
+        </div><!-- Main component for a primary marketing message or call to action -->
+        <div class="jumbotron">
+          <h1>Navbar example</h1>
+          <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+          <p>To see the difference between static and fixed top navbars, just scroll.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+          </p>
+        </div>
+      </div>
+      </div> 
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="public/js/hover-menu.js"></script>
+  </body>
+</html>

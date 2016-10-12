@@ -1,0 +1,31 @@
+.caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+#main-mav-top ul li a{
+	color: #FFFFFF;
+}
+#main-mav-top ul li:hover a{
+	color: black;
+}
+#main-mav-top ul li ul li:hover a {
+	color: red;
+	background-color: #FFFFFF;
+}
+.navbar-toggle{
+	color: red;
+}
+.login{	
+	margin: 5px;
+	color: green;
+}
+.form-control{
+	width: 100%;
+}
